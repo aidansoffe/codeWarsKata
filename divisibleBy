@@ -1,0 +1,9 @@
+function divisibleBy(numbers, divisor){
+var devided = [];
+for (var i=0; i<numbers.length; i++){
+if(numbers[i] % divisor === 0){
+devided.push(numbers[i])
+}
+}
+return devided
+}
