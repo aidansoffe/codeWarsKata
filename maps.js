@@ -4,3 +4,9 @@ let double = x.map(function(number){
 });
 return double;
 }
+
+//////////////////////////////////////
+
+function maps(x){
+  return x.map(n => n * 2);
+}
