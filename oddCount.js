@@ -21,3 +21,4 @@ function oddCount(n){
   return count.length;
 }
 
+https://www.codewars.com/kata/count-odd-numbers-below-n/train/javascript
