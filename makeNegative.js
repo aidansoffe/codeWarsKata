@@ -7,3 +7,10 @@ function makeNegative(num) {
   }
   return n
 }
+
+
+///////////////////////////
+
+function makeNegative(num) {
+  return num < 0 ? num : -num;
+}
