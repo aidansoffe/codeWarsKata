@@ -15,4 +15,14 @@ function combat(health, damage) {
 
 /////////////////////////////////
 
+function combat(health, damage) {
+  if (health - damage < 0){
+    return 0;
+  }else{
+    return health - damage;
+  }
+}
+
+////////////////////////////////
+
 https://www.codewars.com/kata/grasshopper-terminal-game-combat-function-1/train/javascript
