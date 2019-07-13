@@ -18,6 +18,14 @@ function squareSum(array){
 
 //////////////////////////////
 
+function squareSum(numbers){
+  return numbers.reduce(function(sum, n){
+    return (n*n) + sum;
+  }, 0)
+}
+
+///////////////////////////////
+
 
 https://www.codewars.com/kata/square-n-sum/train/javascript
 
